@@ -1,17 +1,25 @@
-# hydration_tracker
 
-A new Flutter project.
 
-## Getting Started
+# Hydration Tracker App | تطبيق متابعة شرب الماء
+تطبيق هاتف ذكي مطوّر باستخدام إطار العمل Flutter لمتابعة وتنظيم معدل شرب الماء اليومي، ومساعدة المستخدمين على الحفاظ على ترطيب أجسامهم والوصول لأهدافهم الصحية اليومية بسهولة.
 
-This project is a starting point for a Flutter application.
+نظرة عامة
+يقدم التطبيق واجهة بسيطة وعملية تتيح للمستخدم تحديد هدفه اليومي من المياه، وتسجيل الكميات التي يشربها على مدار اليوم بضغطة زر واحدة، مع عرض نسبة الإنجاز اللحظية وتنبيهات دورية للتذكير بشرب الماء.
 
-A few resources to get you started if this is your first Flutter project:
+المميزات الرئيسية
+تتبع الاستهلاك اليومي: تسجيل كميات المياه المستهلكة خلال اليوم وحساب الكمية المتبقية للوصول للهدف.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+تحديد الهدف اليومي: إمكانية ضبط وتخصيص الهدف اليومي من المياه (بالمليلتر أو الأكواب) حسب احتياج المستخدم.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+مؤشر تقدم تفاعلي: عرض نسبة الإنجاز اليومية بشكل بصري واضح لتشجيع الاستمرارية.
+
+سجل الاستهلاك اليومي: عرض تفاصيل أوقات وكميات المياه التي تم تسجيلها خلال اليوم مع إمكانية التعديل أو الحذف.
+
+إعادة ضبط تلقائية أو يدوية: إمكانية تصفير العداد لبدء يوم جديد بسهولة.
+
+التقنيات والأدوات المستخدمة
+تطوير التطبيق: Flutter & Dart
+
+إدارة الحالة (State Management): StatefulWidget / Provider
+
+تصميم الواجهة: Material Design بواجهة متجاوبة تعمل على أجهزة Android و iOS.
